@@ -1,0 +1,25 @@
+.a{
+    background: linear-gradient(300deg, #6482AD, #7FA1C3, #E2DAD6, #F5EDED);
+    /* background-size: 180% 180%; */
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .Online-Banking{
+    border-radius: 20px;
+    box-shadow: #6482AD;
+    border: 10px solid;
+  }
+  #carouselExample{
+    border: 10px solid;
+    border-radius: 20px;
+  }
